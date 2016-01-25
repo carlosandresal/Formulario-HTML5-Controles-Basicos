@@ -1,0 +1,324 @@
+/************************************
+GENERAL
+*************************************/
+
+body {
+    background: #616f67;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+header {
+    width: 100%;
+    background: #4c5f54;
+    padding: 1px;
+    border-bottom: .4em solid #374e41;
+    margin-bottom: 1.95em;
+}
+h4 {
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+}
+.wrapper {
+    width: 60%;
+    margin: 0 auto;
+}
+form {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+fieldset {
+    border-color: #374e41;
+    background: rgba(76, 95, 84, .4);
+    border-bottom: .4em solid #374e41;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 0 1em;
+    border-top: none;
+}
+legend {
+    font-weight: 700;
+    font-size: 1.3em;
+    padding: 1% 1% 0;
+    text-align: left;
+    border-bottom: 1px solid #374e41;
+    margin-bottom: .5em;
+}
+label,
+input,
+textarea,
+select {
+    border-radius: 5px;
+    border: none;
+}
+label:hover,
+input:hover,
+textarea:hover,
+select:hover {
+    transition: all .5s ease;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.247059) 0px 7px 15px;
+    box-shadow: rgba(0, 0, 0, 0.247059) 0 7px 15px;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+    color: grey;
+}
+
+/************************************
+HEADER
+*************************************/
+
+.head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: .4em auto;
+}
+header img {
+    border-radius: 50%;
+    padding: .1em;
+    margin: 0 auto;
+    background-color: rgba(240, 255, 255, 0.65);
+}
+header h1 {
+    text-align: center;
+}
+
+/************************************
+IMPRIME TU FOTO
+*************************************/
+
+select {
+    background: rgb(97, 111, 103);
+    color: #fff;
+    padding: 5px;
+    margin: 1%;
+}
+select:focus {
+    outline: none;
+}
+.select {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+/************************************
+DATOS PERSONALES
+*************************************/
+
+.datos {
+    width: 100%;
+    text-align: center;
+}
+
+.datos input {
+    width: 40%;
+    text-align: center;
+    margin: 1%;
+    padding: .3em;
+}
+
+/*
+#datosPersonales {
+    width: 100%;
+    text-align: center;
+}
+#datosPersonales input {
+    margin: .4em;
+    text-align: center;
+    padding: .3em;
+    width: 80%;
+}
+*/
+
+/************************************
+EXTRAS
+************************************/
+.file {
+    text-align: center;
+    margin: 1%;
+    padding: 1%;
+}
+
+/*file*/
+
+label[for="file"] {
+    display: block;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 6px;
+    background-color: #374e41;
+    color: #fff;
+    cursor: pointer;
+    transition: all .4s;
+}
+label[for="file"]:hover {
+    background-color: rgba(55, 78, 65, 0.71);
+}
+input[type="file"] {
+/*   display: none;*/
+/*    visibility: hidden;*/
+    opacity: 0;
+    width: 1%;
+
+}
+
+/*FileUp*/
+.file > input[name="fileUp"]{
+    background: rgba(76, 95, 84, .4);
+    margin: 1%;
+    text-align: center;
+    box-shadow: none;
+    font-weight: 800;
+    width: 60%
+}
+
+
+
+/*link*/
+
+.link {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+input[type="url"] {
+    width: 80%;
+    text-align: center;
+}
+
+/*text-area*/
+
+.textArea {
+    text-align: center;
+    margin: .5em auto;
+    width: 80%
+}
+
+.textArea textarea {
+    width: 60%;
+    height: 5em;
+    padding: .2em;
+    margin: 1em;
+}
+
+/************************************
+CHECKOUT
+*************************************/
+
+/*Checkout*/
+#checkOut p {
+    font-size: 18px;
+    width: 100%;
+}
+
+.date {
+    text-align: center;
+    margin-bottom: 2%;
+    width: 100%;
+}
+
+input[type="date"] {
+    color: gray;
+    margin-bottom: 2%;
+    width: 60%
+}
+
+input[type="radio"],
+label[for="check1"],
+label[for="check2"] {
+    margin: 1px;
+}
+
+/*Lugar*/
+
+.lugar {
+    width: 100%;
+    text-align: center;
+    padding: .3em 0;
+}
+.place {
+    width: 30%;
+    margin: .3em 1.2% .3em 1.2%;
+}
+
+/*Home*/
+
+.home{
+    width: 100%;
+    text-align: center;
+}
+.home .homeH {
+    width: 40%;
+    margin: 1%;
+    padding: 2.5px 2px;
+    text-align: center;
+    color: grey;
+}
+
+/************************************
+TERMINOS Y CONDICIONES
+*************************************/
+#terminos {
+    margin-bottom: 10px;
+}
+.agree {
+    width: 60%;
+    text-align: center;
+    margin: 15px 0;
+}
+.agree input[name="accept"],
+.agree label[for="contract"]{
+    font-size: 1.3em;
+    padding: .3em;
+}
+
+/*terminos*/
+.terms {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items:baseline;
+    margin: 1% 0;
+    padding: 1% 0;
+}
+
+.terms a {
+    width: 40%;
+}
+
+.terms input[type="submit"] {
+    background-color: #374e41;
+    width: 40%;
+    padding: 1%;
+    font-size: 20px;
+
+}
+
+/************************************
+COLOR
+*************************************/
+#datosPersonales input,
+#extras input[type="url"],
+#extras textarea,
+#checkOut input {
+    color: grey;
+}
+
+
+
+
+
+
+
+
+
