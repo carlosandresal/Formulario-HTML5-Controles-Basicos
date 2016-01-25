@@ -14,7 +14,7 @@ El Ejercicio Consta de un formulario en `HTML5` y en este caso emulamos una tien
 
 * Obtener un muy buen conocimiento den cuanto a formularios y las últimas etiquetas de `HTML5`, que se usan.
 
-![Formulario](img/Formulario1.png)
+![Formulario](Formulario-HTML5-Controles-Basicos/Img/Formulario1.png)
 
 
 
